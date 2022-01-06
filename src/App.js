@@ -107,18 +107,17 @@ function App() {
                   <img
                     src={`http://openweathermap.org/img/wn/${weather.weather[0].icon}@2x.png`}
                     className="card-img-top"
-                    alt="${day.weather[0].description}"
+                    alt="Img of the description"
                   />
                 </div>
               </div>
             </div>
-          ) : (
-            ""
-          )}
+          ) : ("Please enter a city")}
         </main>
       </div>
     </div>
   );
 }
+
 
 export default App;
